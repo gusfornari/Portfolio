@@ -1,0 +1,40 @@
+#intro{
+  background-image: url(../Assets/images/Background_Intro.png);
+  background-size: cover;
+ 
+
+  .info{
+     padding: 120px 163px 57px 163px;
+
+     .header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p:nth-child(2){
+        font: var(--text-in);
+        color: var(--gray-500);
+      }
+
+      h1{
+        font: var(--text-lg);
+        color: var(--gray-600);
+      }
+
+      p:nth-child(4){
+        font: var(--text-ma-sm);
+        color: var(--gray-400);
+      }
+
+
+      p{
+        max-width: 680px;
+      }
+     }
+  }
+
+  span{
+    color: var(--red);
+  }
+}
+
