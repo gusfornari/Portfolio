@@ -9,17 +9,6 @@
     margin-bottom: 20px;
   }
   
-  span strong {
-    font: var(--text-sm);
-    color: var(--gray-600);
-  }
-  
-  span p {
-    margin-top: 8px;
-    font: var(--text-ma-sm);
-    color: var(--gray-500);
-  }
-  
   .travel{
     border-radius: 12px;
     width: 100%;

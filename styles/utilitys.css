@@ -19,7 +19,7 @@
 
 .work{
   margin-bottom: 56px;
-text-align: center;
+  text-align: center;
   p{
     margin-bottom: 8px;
     font: var(--text-in);
@@ -31,3 +31,18 @@ text-align: center;
     color: var(--gray-600);
   }
 }
+
+.text-span{
+
+  strong{
+    font: var(--text-sm);
+    color: var(--gray-600);
+    margin-top: 20px;
+  }
+
+  p{
+    margin-top: 8px;
+    font: var(--text-ma-sm);
+    color: var(--gray-500);
+  }
+  }
