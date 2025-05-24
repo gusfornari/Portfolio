@@ -1,39 +1,25 @@
 #projects{
   padding: 72px 120px 144px 120px;
   background-color: var(--gray-200);
-  #work{
-    margin-bottom: 56px;
-  text-align: center;
-    p{
-      margin-bottom: 8px;
-      font: var(--text-in);
-      color: var(--red);
-    }
-
-    h3{
-      font: var(--text-md);
-      color: var(--gray-600);
-    }
-  }
-
+  
   span img{
     width: 306px;
     height: 156px;
     border-radius: 8px;
     margin-bottom: 20px;
   }
-
+  
   span strong {
     font: var(--text-sm);
     color: var(--gray-600);
   }
-
+  
   span p {
     margin-top: 8px;
     font: var(--text-ma-sm);
     color: var(--gray-500);
   }
-
+  
   .travel{
     border-radius: 12px;
     width: 100%;
@@ -42,7 +28,7 @@
     background-color: var(--gray-300);
     align-items: center;
   }
-
+  
   .tech{
     border-radius: 12px;
     width: 100%;
@@ -51,7 +37,7 @@
     background-color: var(--gray-300);
     align-items: center;
   }
-
+  
   .page{
     border-radius: 12px;
     width: 100%;
@@ -60,7 +46,7 @@
     background-color: var(--gray-300);
     align-items: center;
   }
-
+  
   .zin{
     border-radius: 12px;
     width: 100%;
@@ -69,7 +55,7 @@
     background-color: var(--gray-300);
     align-items: center;
   }
-
+  
   .refund{
     border-radius: 12px;
     width: 100%;
@@ -78,7 +64,7 @@
     background-color: var(--gray-300);
     align-items: center;
   }
-
+  
   .turi{
     border-radius: 12px;
     width: 100%;
@@ -88,4 +74,3 @@
     align-items: center;
   }
 }
-
