@@ -1,10 +1,42 @@
 #intro{
   background-image: url(../Assets/images/Background_Intro.png);
   background-size: cover;
+  padding: 120px 163px 57px 163px;
  
 
   .info{
-     padding: 120px 163px 57px 163px;
+     width: 1040px ;
+     
+     ul{
+      display: flex;
+      color: white;
+      justify-content: center;
+      gap: 16px;
+      list-style: none;
+
+      
+      li{
+        display: flex;
+        border-radius: 999px;
+        padding: 8px 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background-color: var(--gray-300); 
+      }
+
+      li:nth-child(1) svg{color: var(--gray-500);}
+      li:nth-child(2) svg{color: var(--red);}
+      li:nth-child(3) svg{color: var(--blue);}
+      li:nth-child(4) svg{ color: var(--yellow);}
+      li:nth-child(5) svg{color: var(--blue);}
+      li:nth-child(6) svg{color: var(--green);}
+
+      }
+
+    }
+
+
 
      .header{
       display: flex;
@@ -36,5 +68,4 @@
   span{
     color: var(--red);
   }
-}
 
