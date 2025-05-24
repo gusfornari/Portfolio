@@ -2,12 +2,18 @@
   background-image: url(../Assets/images/Background_Intro.png);
   background-size: cover;
   padding: 120px 163px 57px 163px;
+  display: block;
+  text-align: center;
+  svg:nth-child(2){
+  margin: 94px 0px 57px;}
  
 
   .info{
      width: 1040px ;
      
      ul{
+      font: var(--text-ma-md);
+      margin-top: 80px;
       display: flex;
       color: white;
       justify-content: center;
@@ -23,6 +29,7 @@
         justify-content: center;
         gap: 8px;
         background-color: var(--gray-300); 
+        color: var(--gray-500);
       }
 
       li:nth-child(1) svg{color: var(--gray-500);}
@@ -46,9 +53,11 @@
       p:nth-child(2){
         font: var(--text-in);
         color: var(--gray-500);
+        margin-top: 56px;
       }
 
       h1{
+        margin: 8px 0px 20px;
         font: var(--text-lg);
         color: var(--gray-600);
       }
