@@ -79,3 +79,24 @@
     color: var(--red);
   }
 
+  .profile{
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    position: relative;
+
+    .img-base{
+      display: block;
+      width: 92px;
+      height: 92px;
+      border-radius: 999px;
+      border: 2px solid var(--red);
+    }
+
+    .img-top{
+      position: absolute;
+      top: 67px;
+      left: 60px;
+    }
+  }
+
