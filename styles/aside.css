@@ -1,0 +1,28 @@
+#contact{
+  background-image: url(../Assets/images/Background_Contacts.png);
+  padding: 128px 120px 200px 120px;
+
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+      li{
+
+        a{
+          text-decoration: none;
+          color: var(--gray-500);
+          font: var(--text-ma-lg);
+        }
+        display: flex;
+        width: 400px;
+        padding: 20px;
+        align-items: center;
+        border-radius: 8px;
+        background-color: var(--gray-300);
+        gap: 12px;
+    }
+  }
+}

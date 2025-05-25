@@ -32,6 +32,27 @@
   }
 }
 
+.final{
+  margin-bottom: 48px;
+  text-align: center;
+  p:nth-child(1){
+    margin-bottom: 8px;
+    font: var(--text-in);
+    color: var(--purple);
+  }
+
+  p:nth-child(3){
+    font: var(--text-in);
+    color: var(--gray-500);
+  }
+
+  h3{
+    margin-bottom: 8px;
+    font: var(--text-md);
+    color: var(--gray-600);
+  }
+}
+
 .text-span{
 
   strong{
@@ -45,4 +66,9 @@
     font: var(--text-ma-sm);
     color: var(--gray-500);
   }
+  }
+
+  .end{
+    position: absolute;
+    right: 490px;
   }

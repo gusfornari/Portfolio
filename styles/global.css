@@ -27,6 +27,7 @@
   --text-in: 400 20px/120% var(--font-inconsolata);
 
   --font-maven: 'maven pro', sans-serif;
+  --text-ma-lg: 500 16px/140% var(--font-maven);
   --text-ma-md: 400 16px/140% var(--font-maven);
   --text-ma-sm: 400 14px/140% var(--font-maven);
    
